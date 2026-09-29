@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LimpiaPro - Servicios de Limpieza Corporativa Premium</title>
+    <link rel="stylesheet" href="style-premium.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<!-- HEADER PREMIUM -->
+<header class="header premium-header">
+    <div class="container">
+        <div class="nav premium-nav">
+            <div class="logo premium-logo">
+                <span class="logo-icon">🧹</span>
+                <div>
+                    <strong>LimpiaPro</strong>
+                    <small>Excelencia en Limpieza</small>
+                </div>
+            </div>
+            <button class="menu-btn" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav id="menu" class="premium-menu">
+                <a href="#servicios"><i class="fas fa-briefcase"></i> Servicios</a>
+                <a href="#ventajas"><i class="fas fa-star"></i> Ventajas</a>
+                <a href="#galeria"><i class="fas fa-images"></i> Galería</a>
+                <a href="#testimonios"><i class="fas fa-comments"></i> Clientes</a>
+                <a href="#contacto"><i class="fas fa-phone"></i> Contacto</a>
+            </nav>
+            <button class="btn btn-premium" onclick="document.getElementById('contacto').scrollIntoView({behavior: 'smooth'})">
+                <i class="fas fa-quote"></i> Cotizar Gratis
+            </button>
+        </div>
+    </div>
+</header>
+
+<!-- HERO PREMIUM -->
+<section class="hero premium-hero">
+    <div class="hero-background"></div>
+    <div class="container">
+        <div class="hero-content premium-hero-content">
+            <div class="hero-badge">
+                <i class="fas fa-check-circle"></i> Certificado ISO 9001
+            </div>
+            <h1 class="hero-title">
+                Limpieza Corporativa 
+                <span class="gradient-text">de Clase Mundial</span>
+            </h1>
+            <p class="hero-subtitle">
+                Transformamos espacios en ambientes impecables. Más de 500 empresas confían en nosotros para mantener sus oficinas, condominios y almacenes en perfecto estado.
+            </p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary btn-lg" onclick="document.getElementById('contacto').scrollIntoView({behavior: 'smooth'})">
+                    <i class="fas fa-star"></i> Solicitar Cotización
+                </button>
+                <button class="btn btn-secondary btn-lg" onclick="document.getElementById('ventajas').scrollIntoView({behavior: 'smooth'})">
+                    <i class="fas fa-arrow-down"></i> Conocer Ventajas
+                </button>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">10+</span>
+                    <span class="stat-label">Años</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">500+</span>
+                    <span class="stat-label">Clientes</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">2500+</span>
+                    <span class="stat-label">Proyectos</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">98%</span>
+                    <span class="stat-label">Satisfacción</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1563453392212-d0b3d5e6a0a2?auto=format&fit=crop&w=600&q=80" alt="Equipo profesional de limpieza">
+            <div class="floating-card">
+                <i class="fas fa-sparkles"></i>
+                <p>Garantía de Calidad 100%</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- STATS PREMIUM -->
+<section class="stats premium-stats">
+    <div class="container">
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fas fa-building"></i></div>
+                <strong>2,500+</strong>
+                <span>Espacios Limpios</span>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fas fa-smile"></i></div>
+                <strong>98%</strong>
+                <span>Satisfacción Clientes</span>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fas fa-user-tie"></i></div>
+                <strong>50+</strong>
+                <span>Profesionales Certificados</span>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fas fa-shield-alt"></i></div>
+                <strong>100%</strong>
+                <span>Garantía de Calidad</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SERVICIOS PREMIUM -->
+<section class="section services-section" id="servicios">
+    <div class="container">
+        <div class="section-header">
+            <div class="section-badge">NUESTROS SERVICIOS</div>
+            <h2>Soluciones Integrales de Limpieza</h2>
+            <p>Cada empresa es única. Por eso ofrecemos servicios personalizados adaptados a tus necesidades específicas</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card premium-service">
+                <div class="service-header">
+                    <div class="service-icon"><i class="fas fa-building"></i></div>
+                    <h3>Limpieza de Oficinas</h3>
+                </div>
+                <p>Mantenimiento diario de espacios de trabajo con productos seguros y certificados. Pisos relucientes, muebles impecables y áreas comunes desinfectadas.</p>
+                <ul class="service-features">
+                    <li><i class="fas fa-check"></i> Limpieza diaria o periódica</li>
+                    <li><i class="fas fa-check"></i> Desinfección profunda</li>
+                    <li><i class="fas fa-check"></i> Horarios flexibles</li>
+                </ul>
+            </div>
+            <div class="service-card premium-service featured">
+                <div class="featured-badge">Más Popular</div>
+                <div class="service-header">
+                    <div class="service-icon"><i class="fas fa-city"></i></div>
+                    <h3>Condominios</h3>
+                </div>
+                <p>Servicios integrales para comunidades residenciales. Pasillos impecables, escaleras relucientes, terrazas limpias y áreas comunes desinfectadas.</p>
+                <ul class="service-features">
+                    <li><i class="fas fa-check"></i> Mantenimiento común</li>
+                    <li><i class="fas fa-check"></i> Sanitización áreas verdes</li>
+                    <li><i class="fas fa-check"></i> Disponibilidad 24/7</li>
+                </ul>
+            </div>
+            <div class="service-card premium-service">
+                <div class="service-header">
+                    <div class="service-icon"><i class="fas fa-warehouse"></i></div>
+                    <h3>Almacenes y Bodegas</h3>
+                </div>
+                <p>Limpieza especializada para espacios industriales. Control de polvo, desinfección de áreas de almacenamiento y mantenimiento de pisos de alto tráfico.</p>
+                <ul class="service-features">
+                    <li><i class="fas fa-check"></i> Limpieza industrial</li>
+                    <li><i class="fas fa-check"></i> Control de polvo</li>
+                    <li><i class="fas fa-check"></i> Tratamiento especial</li>
+                </ul>
+            </div>
+            <div class="service-card premium-service">
+                <div class="service-header">
+                    <div class="service-icon"><i class="fas fa-sparkles"></i></div>
+                    <h3>Limpieza Profunda</h3>
+                </div>
+                <p>Servicios de desinfección intensiva, encerado y pulido profesional. Ideal para cambios de temporada, eventos especiales o después de remodelaciones.</p>
+                <ul class="service-features">
+                    <li><i class="fas fa-check"></i> Desinfección integral</li>
+                    <li><i class="fas fa-check"></i> Encerado y pulido</li>
+                    <li><i class="fas fa-check"></i> Después de eventos</li>
+                </ul>
+            </div>
+            <div class="service-card premium-service">
+                <div class="service-header">
+                    <div class="service-icon"><i class="fas fa-cogs"></i></div>
+                    <h3>Servicios Personalizados</h3>
+                </div>
+                <p>Diseñamos planes a medida según tus necesidades. Frecuencia flexible, horarios adaptados y presupuestos competitivos para empresas de cualquier tamaño.</p>
+                <ul class="service-features">
+                    <li><i class="fas fa-check"></i> Plan personalizado</li>
+                    <li><i class="fas fa-check"></i> Frecuencia flexible</li>
+                    <li><i class="fas fa-check"></i> Precios competitivos</li>
+                </ul>
+            </div>
+            <div class="service-card premium-service">
+                <div class="service-header">
+                    <div class="service-icon"><i class="fas fa-virus-slash"></i></div>
+                    <h3>Desinfección 360°</h3>
+                </div>
+                <p>Protocolos certificados de sanitización con productos ecológicos y seguros. Eliminación de virus, bacterias y microorganismos para máxima protección.</p>
+                <ul class="service-features">
+                    <li><i class="fas fa-check"></i> Protocolos certificados</li>
+                    <li><i class="fas fa-check"></i> Productos ecológicos</li>
+                    <li><i class="fas fa-check"></i> Máxima seguridad</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- VENTAJAS -->
+<section class="section ventajas-section" id="ventajas">
+    <div class="container">
+        <div class="ventajas-grid">
+            <div class="ventajas-content">
+                <div class="section-badge">POR QUÉ ELEGIRNOS</div>
+                <h2>Líderes en Excelencia de Limpieza</h2>
+                <p>Somos más que un servicio de limpieza. Somos tu aliado estratégico en mantener tu empresa en perfecto estado.</p>
+                
+                <div class="ventaja-item">
+                    <div class="ventaja-icon"><i class="fas fa-certificate"></i></div>
+                    <div>
+                        <h4>Certificado ISO 9001</h4>
+                        <p>Garantía de calidad internacional en todos nuestros procesos y servicios.</p>
+                    </div>
+                </div>
+
+                <div class="ventaja-item">
+                    <div class="ventaja-icon"><i class="fas fa-leaf"></i></div>
+                    <div>
+                        <h4>Productos Ecológicos</h4>
+                        <p>Usamos solo productos seguros, certificados y respetuosos con el medio ambiente.</p>
+                    </div>
+                </div>
+
+                <div class="ventaja-item">
+                    <div class="ventaja-icon"><i class="fas fa-users"></i></div>
+                    <div>
+                        <h4>Personal Certificado</h4>
+                        <p>Equipo profesional capacitado, responsable y con experiencia comprobada.</p>
+                    </div>
+                </div>
+
+                <div class="ventaja-item">
+                    <div class="ventaja-icon"><i class="fas fa-clock"></i></div>
+                    <div>
+                        <h4>Disponibilidad 24/7</h4>
+                        <p>Soporte y servicios disponibles todos los días, sin excepciones.</p>
+                    </div>
+                </div>
+
+                <div class="ventaja-item">
+                    <div class="ventaja-icon"><i class="fas fa-handshake"></i></div>
+                    <div>
+                        <h4>Garantía 100%</h4>
+                        <p>Si no estás satisfecho, repetimos el servicio sin costo adicional.</p>
+                    </div>
+                </div>
+
+                <div class="ventaja-item">
+                    <div class="ventaja-icon"><i class="fas fa-chart-line"></i></div>
+                    <div>
+                        <h4>Precios Competitivos</h4>
+                        <p>Mejor relación precio-calidad del mercado con planes adaptados a tu presupuesto.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ventajas-imagen">
+                <img src="https://images.unsplash.com/photo-1552840591-41bd94fbf900?auto=format&fit=crop&w=500&q=80" alt="Profesionales de limpieza">
+                <div class="experience-badge">
+                    <strong>Más de 10 años</strong>
+                    <p>transformando espacios</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PROCESO -->
+<section class="section proceso-section">
+    <div class="container">
+        <div class="section-header">
+            <div class="section-badge">NUESTRO PROCESO</div>
+            <h2>Cómo Trabajamos</h2>
+            <p>Un enfoque metódico, profesional y transparente en cada proyecto</p>
+        </div>
+        <div class="proceso-grid">
+            <div class="proceso-card">
+                <div class="proceso-number">1</div>
+                <div class="proceso-icon"><i class="fas fa-search"></i></div>
+                <h3>Evaluación Inicial</h3>
+                <p>Visitamos tu espacio, analizamos tus necesidades específicas y creamos un plan personalizado con presupuesto detallado.</p>
+            </div>
+            <div class="proceso-arrow"><i class="fas fa-arrow-right"></i></div>
+            <div class="proceso-card">
+                <div class="proceso-number">2</div>
+                <div class="proceso-icon"><i class="fas fa-file-contract"></i></div>
+                <h3>Propuesta Definitiva</h3>
+                <p>Presentamos una cotización transparente con servicios, frecuencia, horarios y términos claros. Sin sorpresas.</p>
+            </div>
+            <div class="proceso-arrow"><i class="fas fa-arrow-right"></i></div>
+            <div class="proceso-card">
+                <div class="proceso-number">3</div>
+                <div class="proceso-icon"><i class="fas fa-broom"></i></div>
+                <h3>Ejecución Profesional</h3>
+                <p>Nuestro equipo ejecuta el servicio con máxima profesionalidad, atención al detalle y respeto por tu espacio.</p>
+            </div>
+            <div class="proceso-arrow"><i class="fas fa-arrow-right"></i></div>
+            <div class="proceso-card">
+                <div class="proceso-number">4</div>
+                <div class="proceso-icon"><i class="fas fa-chart-line"></i></div>
+                <h3>Seguimiento Continuo</h3>
+                <p>Evaluamos satisfacción, realizamos ajustes según necesites y mantenemos comunicación abierta permanentemente.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- GALERIA PREMIUM -->
+<section class="section galeria-section" id="galeria">
+    <div class="container">
+        <div class="section-header light">
+            <div class="section-badge">GALERÍA</div>
+            <h2>Espacios Transformados</h2>
+            <p>Mira nuestro trabajo: oficinas, condominios y almacenes completamente renovados</p>
+        </div>
+        <div class="galeria-grid">
+            <div class="galeria-item">
+                <img src="https://images.unsplash.com/photo-1563453392212-d0b3d5e6a0a2?auto=format&fit=crop&w=600&q=80" alt="Oficina corporativa limpia">
+                <div class="galeria-overlay">
+                    <h4>Oficinas Corporativas</h4>
+                    <p>Espacios de trabajo impecables</p>
+                </div>
+            </div>
+            <div class="galeria-item">
+                <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=600&q=80" alt="Almacén limpio">
+                <div class="galeria-overlay">
+                    <h4>Almacenes Industriales</h4>
+                    <p>Gestión profesional de espacios</p>
+                </div>
+            </div>
+            <div class="galeria-item">
+                <img src="https://images.unsplash.com/photo-1552840591-41bd94fbf900?auto=format&fit=crop&w=600&q=80" alt="Condominio reluciente">
+                <div class="galeria-overlay">
+                    <h4>Condominios Residenciales</h4>
+                    <p>Áreas comunes impecables</p>
+                </div>
+            </div>
+            <div class="galeria-item">
+                <img src="https://images.unsplash.com/photo-1584789957302-a73a6fc5de56?auto=format&fit=crop&w=600&q=80" alt="Piso brillante">
+                <div class="galeria-overlay">
+                    <h4>Pisos Profesionales</h4>
+                    <p>Encerado y pulido premium</p>
+                </div>
+            </div>
+            <div class="galeria-item">
+                <img src="https://images.unsplash.com/photo-1580274455191-1c62238fa333?auto=format&fit=crop&w=600&q=80" alt="Desinfección profesional">
+                <div class="galeria-overlay">
+                    <h4>Desinfección Integral</h4>
+                    <p>Protocolos de sanitización</p>
+                </div>
+            </div>
+            <div class="galeria-item">
+                <img src="https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=600&q=80" alt="Baños modernos">
+                <div class="galeria-overlay">
+                    <h4>Baños y Sanitarios</h4>
+                    <p>Higiene y desinfección 360°</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIOS PREMIUM -->
+<section class="section testimonios-section" id="testimonios">
+    <div class="container">
+        <div class="section-header">
+            <div class="section-badge">TESTIMONIOS</div>
+            <h2>Lo que Dicen Nuestros Clientes</h2>
+            <p>Empresas y organizaciones satisfechas con nuestros servicios</p>
+        </div>
+        <div class="testimonios-grid">
+            <div class="testimonial-card">
+                <div class="testimonial-header">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="testimonial-quote">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                </div>
+                <p class="testimonial-text">
+                    "Excelente servicio. El equipo de LimpiaPro ha transformado completamente nuestras oficinas. Son puntuales, profesionales y muy atentos a los detalles. Recomendación de 5 estrellas sin dudarlo."
+                </p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">MR</div>
+                    <div>
+                        <strong>María Rodríguez</strong>
+                        <span>Gerente General - TechSolutions</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="testimonial-header">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="testimonial-quote">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                </div>
+                <p class="testimonial-text">
+                    "Trabajamos con LimpiaPro desde hace 3 años. Consistencia, calidad y profesionalismo en cada servicio. Nuestros inquilinos siempre comentan lo limpio y bien mantenido que está el condominio."
+                </p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">CG</div>
+                    <div>
+                        <strong>Carlos García</strong>
+                        <span>Administrador - Residencial Plaza Moderna</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="testimonial-header">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="testimonial-quote">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                </div>
+                <p class="testimonial-text">
+                    "Para nuestro almacén necesitábamos un equipo confiable y profesional. LimpiaPro cumple perfectamente. Los protocolos de desinfección son impecables y sus precios son muy competitivos."
+                </p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">JL</div>
+                    <div>
+                        <strong>Jorge López</strong>
+                        <span>Director de Operaciones - Distribuidora Logística XYZ</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="testimonial-header">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="testimonial-quote">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                </div>
+                <p class="testimonial-text">
+                    "Somos una empresa mediana y LimpiaPro se adaptó perfectamente a nuestras necesidades y presupuesto. El trato es excelente y los resultados hablan por sí solos. Muy recomendado."
+                </p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">AP</div>
+                    <div>
+                        <strong>Andrea Pérez</strong>
+                        <span>Directora de RRHH - Consultora Estratégica Global</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="testimonial-header">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="testimonial-quote">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                </div>
+                <p class="testimonial-text">
+                    "Llevamos 2 años con LimpiaPro. Disponibilidad 24/7, equipo responsable y comprometido. Nuestras oficinas lucen impecables. No dudaría en recomendarlos a cualquier empresa."
+                </p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">RH</div>
+                    <div>
+                        <strong>Roberto Hernández</strong>
+                        <span>Propietario - Corporativo Financiero Premium</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="testimonial-header">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="testimonial-quote">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                </div>
+                <p class="testimonial-text">
+                    "El mejor servicio de limpieza que hemos contratado. Profesionales, puntuales y con atención al detalle. Sin dudas, el mejor dinero invertido en mantener nuestro espacio limpio."
+                </p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">SL</div>
+                    <div>
+                        <strong>Sandra López</strong>
+                        <span>Gerente Administrativa - Empresa de Importación del Perú</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA FINAL -->
+<section class="cta-final">
+    <div class="container">
+        <div class="cta-content">
+            <div class="cta-text">
+                <div class="section-badge light">¡TRANSFORMEMOS TU ESPACIO!</div>
+                <h2>Empresas Limpias, Empresas Exitosas</h2>
+                <p>Obtén tu cotización personalizada HOY y descubre por qué 500+ empresas confían en LimpiaPro para su limpieza corporativa.</p>
+                <div class="cta-features">
+                    <div><i class="fas fa-check-circle"></i> Cotización Gratis</div>
+                    <div><i class="fas fa-check-circle"></i> Sin Compromisos</div>
+                    <div><i class="fas fa-check-circle"></i> Respuesta en 24 hrs</div>
+                </div>
+            </div>
+            <button class="btn btn-cta" onclick="document.getElementById('contacto').scrollIntoView({behavior: 'smooth'})">
+                <i class="fas fa-star"></i> Cotizar Ahora
+            </button>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACTO PREMIUM -->
+<section class="section contacto-section" id="contacto">
+    <div class="container">
+        <div class="contacto-grid">
+            <div class="contacto-info">
+                <div class="section-badge dark">CONTACTO</div>
+                <h2>Cuéntanos sobre tu Proyecto</h2>
+                <p>Estamos listos para ayudarte. Responde algunas preguntas y recibirás una cotización personalizada en 24 horas.</p>
+                
+                <div class="info-card">
+                    <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <div>
+                        <strong>Ubicación</strong>
+                        <p>Lima, Perú</p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon"><i class="fas fa-phone-alt"></i></div>
+                    <div>
+                        <strong>Teléfono</strong>
+                        <p>+51 999 999 999</p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon"><i class="fas fa-envelope"></i></div>
+                    <div>
+                        <strong>Email</strong>
+                        <p>info@limpiapro.com</p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon"><i class="fas fa-clock"></i></div>
+                    <div>
+                        <strong>Disponibilidad</strong>
+                        <p>Lunes a Domingos 7am - 10pm</p>
+                    </div>
+                </div>
+            </div>
+
+            <form class="contacto-form" onsubmit="enviarWhatsApp(event)">
+                <h3>Solicitar Cotización</h3>
+                
+                <div class="form-group">
+                    <label>Nombre Completo *</label>
+                    <input type="text" id="nombre" required placeholder="Tu nombre completo">
+                </div>
+
+                <div class="form-group">
+                    <label>Empresa / Organización *</label>
+                    <input type="text" id="empresa" required placeholder="Nombre de tu empresa">
+                </div>
+
+                <div class="form-group">
+                    <label>Teléfono de Contacto *</label>
+                    <input type="tel" id="telefono" required placeholder="Tu teléfono celular o fijo">
+                </div>
+
+                <div class="form-group">
+                    <label>Tipo de Servicio *</label>
+                    <select id="servicio" required>
+                        <option value="">Selecciona el servicio que necesitas</option>
+                        <option value="Limpieza de Oficinas">Limpieza de Oficinas</option>
+                        <option value="Limpieza de Condominios">Limpieza de Condominios</option>
+                        <option value="Limpieza de Almacenes">Limpieza de Almacenes</option>
+                        <option value="Limpieza Profunda">Limpieza Profunda</option>
+                        <option value="Desinfección 360°">Desinfección 360°</option>
+                        <option value="Servicio Personalizado">Servicio Personalizado</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Detalles de tu Solicitud *</label>
+                    <textarea id="mensaje" required placeholder="Cuéntanos sobre tu proyecto: tamaño del espacio, frecuencia deseada, necesidades especiales..." rows="5"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-form">
+                    <i class="fas fa-paper-plane"></i> Enviar por WhatsApp
+                </button>
+                <p class="form-note">Recibirás una cotización personalizada dentro de 24 horas</p>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER PREMIUM -->
+<footer class="footer-premium">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <div class="logo footer-logo">
+                    <span class="logo-icon">🧹</span>
+                    <div>
+                        <strong>LimpiaPro</strong>
+                        <small>Excelencia en Limpieza</small>
+                    </div>
+                </div>
+                <p>Servicios profesionales de limpieza corporativa con garantía de calidad, disponibilidad 24/7 y satisfacción garantizada para empresas medianas y grandes.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h4><i class="fas fa-briefcase"></i> Servicios</h4>
+                <a href="#servicios">Limpieza de Oficinas</a>
+                <a href="#servicios">Limpieza de Condominios</a>
+                <a href="#servicios">Limpieza de Almacenes</a>
+                <a href="#servicios">Desinfección Profesional</a>
+            </div>
+
+            <div class="footer-section">
+                <h4><i class="fas fa-info-circle"></i> Empresa</h4>
+                <a href="#ventajas">Sobre Nosotros</a>
+                <a href="#testimonios">Testimonios</a>
+                <a href="#galeria">Galería de Trabajos</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+
+            <div class="footer-section">
+                <h4><i class="fas fa-shield-alt"></i> Legal</h4>
+                <a href="#">Términos de Servicio</a>
+                <a href="#">Política de Privacidad</a>
+                <a href="#">Política de Cookies</a>
+                <a href="#">Aviso Legal</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 LimpiaPro. Todos los derechos reservados. | Servicios de limpieza corporativa certificados ISO 9001</p>
+        </div>
+    </div>
+</footer>
+
+<!-- WHATSAPP FLOTANTE -->
+<a href="https://wa.me/51999999999" class="whatsapp-float" target="_blank" aria-label="Contactar por WhatsApp" title="¡Chatea con nosotros!">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- SCROLL TO TOP -->
+<button class="scroll-top" id="scrollTop" onclick="scrollToTop()">
+    <i class="fas fa-arrow-up"></i>
+</button>
+
+<script src="script-premium.js"></script>
+
+</body>
+</html>
