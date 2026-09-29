@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LimpiaPro - Servicios de Limpieza Corporativa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+    <div class="container">
+        <div class="nav">
+            <div class="logo">
+                <span class="logo-icon">🧹</span>
+                <div>
+                    LimpiaPro
+                    <small>Limpieza Profesional</small>
+                </div>
+            </div>
+            <button class="menu-btn" onclick="toggleMenu()">☰</button>
+            <nav id="menu">
+                <a href="#servicios">Servicios</a>
+                <a href="#por-que">Por Qué Elegirnos</a>
+                <a href="#galeria">Galería</a>
+                <a href="#testimonios">Testimonios</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+            <button class="btn btn-small" onclick="document.getElementById('contacto').scrollIntoView({behavior: 'smooth'})">Cotizar</button>
+        </div>
+    </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <span class="eyebrow">SOLUCIONES DE LIMPIEZA</span>
+            <h1>Espacios <span>Impecables</span> para tu Empresa</h1>
+            <p>Servicios profesionales de limpieza corporativa con garantía de calidad. Confiamos en mantener tus oficinas, condominios y almacenes impecables, día tras día.</p>
+            <div class="hero-buttons">
+                <button class="btn" onclick="document.getElementById('contacto').scrollIntoView({behavior: 'smooth'})">Solicitar Cotización</button>
+                <button class="btn btn-outline" onclick="document.getElementById('por-que').scrollIntoView({behavior: 'smooth'})">Conocer Más</button>
+            </div>
+            <div class="hero-trust">
+                <div><strong>10+</strong> Años de Experiencia</div>
+                <div><strong>500+</strong> Clientes Satisfechos</div>
+                <div><strong>24/7</strong> Disponibilidad</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- STATS -->
+<section class="stats">
+    <div class="container">
+        <div class="stats-grid">
+            <div>
+                <strong>2,500+</strong>
+                <span>Espacios Limpios</span>
+            </div>
+            <div>
+                <strong>98%</strong>
+                <span>Satisfacción Clientes</span>
+            </div>
+            <div>
+                <strong>50+</strong>
+                <span>Profesionales Certificados</span>
+            </div>
+            <div>
+                <strong>100%</strong>
+                <span>Garantía de Calidad</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SERVICIOS -->
+<section class="section" id="servicios">
+    <div class="container">
+        <div class="section-title">
+            <span>NUESTROS SERVICIOS</span>
+            <h2>Soluciones Completas de Limpieza</h2>
+            <p>Adaptamos nuestros servicios a las necesidades específicas de tu negocio</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">🏢</div>
+                <h3>Limpieza de Oficinas</h3>
+                <p>Mantenimiento diario de espacios de trabajo con productos seguros y certificados. Incluye pisos, muebles y áreas comunes.</p>
+                <a href="#contacto">Más información →</a>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🏙️</div>
+                <h3>Condominios</h3>
+                <p>Servicios integrales para comunidades: pasillos, escaleras, terrazas y áreas comunes con horarios flexibles.</p>
+                <a href="#contacto">Más información →</a>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">📦</div>
+                <h3>Almacenes y Bodegas</h3>
+                <p>Limpieza profunda de espacios industriales, control de polvo y desinfección de áreas de almacenamiento.</p>
+                <a href="#contacto">Más información →</a>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">✨</div>
+                <h3>Limpieza Profunda</h3>
+                <p>Servicios especializados de desinfección, encerado y pulido. Ideal para cambios de temporada o eventos especiales.</p>
+                <a href="#contacto">Más información →</a>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🧴</div>
+                <h3>Servicios Personalizados</h3>
+                <p>Diseñamos planes a medida según tus necesidades. Frecuencia flexible y horarios que se adapten a tu operación.</p>
+                <a href="#contacto">Más información →</a>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🛡️</div>
+                <h3>Desinfección y Sanitización</h3>
+                <p>Protocolos certificados de sanitización con productos ecológicos. Seguridad garantizada para tu equipo.</p>
+                <a href="#contacto">Más información →</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- POR QUE ELEGIRNOS -->
+<section class="about" id="por-que">
+    <div class="container">
+        <div class="about-grid">
+            <div class="about-images">
+                <img src="https://images.unsplash.com/photo-1563453392212-d0b3d5e6a0a2?auto=format&fit=crop&w=600&q=80" alt="Equipo de limpieza profesional">
+                <div class="experience-box">
+                    <strong>10+</strong>
+                    <span>Años<br>Garantía</span>
+                </div>
+            </div>
+            <div class="about-content">
+                <span class="eyebrow dark">POR QUÉ ELEGIRNOS</span>
+                <h2>Calidad Garantizada <span>en Cada Detalle</span></h2>
+                <p>En LimpiaPro entendemos que la limpieza de tu espacio corporativo es más que una tarea: es la cara de tu empresa. Por eso nos comprometemos con excelencia en cada servicio.</p>
+                <p>Nuestro equipo está compuesto por profesionales certificados, equipados con tecnología moderna y productos seguros para el medio ambiente y tu equipo de trabajo.</p>
+                <div class="check-list">
+                    <div>✓ Personal Certificado</div>
+                    <div>✓ Productos Ecológicos</div>
+                    <div>✓ Garantía 100%</div>
+                    <div>✓ Horarios Flexibles</div>
+                    <div>✓ Cobertura 24/7</div>
+                    <div>✓ Precios Competitivos</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PROCESO -->
+<section class="section process-section">
+    <div class="container">
+        <div class="section-title">
+            <span>NUESTRO PROCESO</span>
+            <h2>Cómo Trabajamos</h2>
+            <p>Un enfoque metódico y profesional en cada proyecto</p>
+        </div>
+        <div class="process-grid">
+            <div class="process">
+                <div class="process-number">1</div>
+                <h3>Evaluación</h3>
+                <p>Analizamos tu espacio y necesidades específicas para crear un plan personalizado.</p>
+            </div>
+            <div class="process">
+                <div class="process-number">2</div>
+                <h3>Propuesta</h3>
+                <p>Te presentamos una cotización detallada con servicios, horarios y precios transparentes.</p>
+            </div>
+            <div class="process">
+                <div class="process-number">3</div>
+                <h3>Ejecución</h3>
+                <p>Nuestro equipo ejecuta el servicio con profesionalismo y atención al detalle.</p>
+            </div>
+            <div class="process">
+                <div class="process-number">4</div>
+                <h3>Seguimiento</h3>
+                <p>Verificamos satisfacción y ajustamos según tus necesidades de forma continua.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- GALERIA -->
+<section class="gallery-section" id="galeria">
+    <div class="container">
+        <div class="section-title light">
+            <span>NUESTRO TRABAJO</span>
+            <h2>Espacios Transformados</h2>
+            <p>Mira los resultados de nuestros servicios profesionales</p>
+        </div>
+        <div class="gallery">
+            <img src="https://images.unsplash.com/photo-1563453392212-d0b3d5e6a0a2?auto=format&fit=crop&w=500&q=80" alt="Oficina limpia y profesional">
+            <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=500&q=80" alt="Almacén organizado y limpio">
+            <img src="https://images.unsplash.com/photo-1552840591-41bd94fbf900?auto=format&fit=crop&w=500&q=80" alt="Condominio impecable">
+            <img src="https://images.unsplash.com/photo-1584789957302-a73a6fc5de56?auto=format&fit=crop&w=500&q=80" alt="Piso brillante y reluciente">
+            <img src="https://images.unsplash.com/photo-1580274455191-1c62238fa333?auto=format&fit=crop&w=500&q=80" alt="Servicio de desinfección">
+            <img src="https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=500&q=80" alt="Baños limpios y modernos">
+        </div>
+        <div class="center">
+            <button class="btn" onclick="document.getElementById('contacto').scrollIntoView({behavior: 'smooth'})">Solicitar Presupuesto</button>
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIOS -->
+<section class="section" id="testimonios">
+    <div class="container">
+        <div class="section-title">
+            <span>TESTIMONIOS</span>
+            <h2>Lo que Dicen Nuestros Clientes</h2>
+            <p>Empresas satisfechas con nuestros servicios de limpieza corporativa</p>
+        </div>
+        <div class="reviews">
+            <div class="review">
+                <div class="stars">★★★★★</div>
+                <p>"Excelente servicio. El equipo de LimpiaPro ha transformado completamente nuestras oficinas. Son puntuales, profesionales y muy atentos a los detalles. Los recomendamos ampliamente."</p>
+                <div class="review-person">
+                    <div class="avatar">MR</div>
+                    <div>
+                        <strong>María Rodríguez</strong>
+                        <span>Gerente General - TechSolutions</span>
+                    </div>
+                </div>
+            </div>
+            <div class="review">
+                <div class="stars">★★★★★</div>
+                <p>"Trabajamos con LimpiaPro desde hace 3 años. Consistencia, calidad y profesionalismo en cada servicio. Nuestros inquilinos siempre comentan lo limpio y bien mantenido que está el condominio."</p>
+                <div class="review-person">
+                    <div class="avatar">CG</div>
+                    <div>
+                        <strong>Carlos García</strong>
+                        <span>Administrador de Propiedad - Residencial Plaza</span>
+                    </div>
+                </div>
+            </div>
+            <div class="review">
+                <div class="stars">★★★★★</div>
+                <p>"Para nuestro almacén necesitábamos un equipo confiable. LimpiaPro cumple perfectamente. Los protocolos de desinfección son impecables y sus precios son muy competitivos."</p>
+                <div class="review-person">
+                    <div class="avatar">JL</div>
+                    <div>
+                        <strong>Jorge López</strong>
+                        <span>Director de Operaciones - Distribuidora Logística</span>
+                    </div>
+                </div>
+            </div>
+            <div class="review">
+                <div class="stars">★★★★★</div>
+                <p>"Somos una empresa mediana y LimpiaPro se adaptó perfectamente a nuestras necesidades y presupuesto. El trato es excelente y los resultados hablan por sí solos."</p>
+                <div class="review-person">
+                    <div class="avatar">AP</div>
+                    <div>
+                        <strong>Andrea Pérez</strong>
+                        <span>Directora de Recursos Humanos - Consultora Estratégica</span>
+                    </div>
+                </div>
+            </div>
+            <div class="review">
+                <div class="stars">★★★★★</div>
+                <p>"Llevamos 2 años con LimpiaPro. Disponibilidad 24/7, equipo responsable y comprometido. Nuestras oficinas lucen impecables. No dudaría en recomendarlos."</p>
+                <div class="review-person">
+                    <div class="avatar">RH</div>
+                    <div>
+                        <strong>Roberto Hernández</strong>
+                        <span>Propietario - Corporativo Financiero</span>
+                    </div>
+                </div>
+            </div>
+            <div class="review">
+                <div class="stars">★★★★★</div>
+                <p>"El mejor servicio de limpieza que hemos contratado. Profesionales, puntuales y con atención al detalle. Sin dudas, el mejor dinero invertido en mantener nuestro espacio."</p>
+                <div class="review-person">
+                    <div class="avatar">SL</div>
+                    <div>
+                        <strong>Sandra López</strong>
+                        <span>Gerente Administrativa - Empresa de Importación</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+    <div class="container">
+        <div class="cta-content">
+            <div>
+                <span>¿LISTO PARA CAMBIAR?</span>
+                <h2>Espacios Limpios, Empresas Exitosas</h2>
+                <p>Obtén tu cotización personalizada hoy y descubre por qué más de 500 empresas confían en nosotros.</p>
+            </div>
+            <button class="btn white" onclick="document.getElementById('contacto').scrollIntoView({behavior: 'smooth'})">Cotizar Ahora</button>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACTO -->
+<section class="section contact" id="contacto">
+    <div class="container">
+        <div class="contact-grid">
+            <div>
+                <span class="eyebrow dark">CONTACTO</span>
+                <h2>¿Listo para Limpiar?</h2>
+                <p>Contáctanos para conocer más sobre nuestros servicios y obtener una cotización personalizada. Estaremos encantados de ayudarte.</p>
+                <div class="contact-info">
+                    <div>
+                        <strong>📍 Ubicación</strong>
+                        <span>Lima, Perú</span>
+                    </div>
+                    <div>
+                        <strong>📞 Teléfono</strong>
+                        <span>+51 999 999 999</span>
+                    </div>
+                    <div>
+                        <strong>✉️ Email</strong>
+                        <span>info@limpiapo.com</span>
+                    </div>
+                    <div>
+                        <strong>🕒 Horarios</strong>
+                        <span>Lunes a Domingos 7:00 AM - 10:00 PM</span>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form" onsubmit="enviarWhatsApp(event)">
+                <label>
+                    Nombre Completo
+                    <input type="text" id="nombre" required placeholder="Tu nombre">
+                </label>
+                <label>
+                    Empresa
+                    <input type="text" id="empresa" required placeholder="Nombre de tu empresa">
+                </label>
+                <label>
+                    Teléfono
+                    <input type="tel" id="telefono" required placeholder="Tu teléfono">
+                </label>
+                <label>
+                    Tipo de Servicio
+                    <select id="servicio" required>
+                        <option value="">Selecciona un servicio</option>
+                        <option value="Limpieza de Oficinas">Limpieza de Oficinas</option>
+                        <option value="Limpieza de Condominios">Limpieza de Condominios</option>
+                        <option value="Limpieza de Almacenes">Limpieza de Almacenes</option>
+                        <option value="Limpieza Profunda">Limpieza Profunda</option>
+                        <option value="Desinfección y Sanitización">Desinfección y Sanitización</option>
+                        <option value="Servicio Personalizado">Servicio Personalizado</option>
+                    </select>
+                </label>
+                <label>
+                    Detalles de tu Solicitud
+                    <textarea id="mensaje" required placeholder="Cuéntanos sobre tu proyecto..." rows="5"></textarea>
+                </label>
+                <button type="submit" class="btn full">Enviar por WhatsApp</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div>
+                <div class="logo footer-logo">
+                    <span class="logo-icon">🧹</span>
+                    <div>
+                        LimpiaPro
+                        <small>Limpieza Profesional</small>
+                    </div>
+                </div>
+                <p>Servicios profesionales de limpieza corporativa con garantía de calidad y satisfacción garantizada.</p>
+            </div>
+            <div>
+                <h4>Servicios</h4>
+                <a href="#servicios">Limpieza de Oficinas</a>
+                <a href="#servicios">Limpieza de Condominios</a>
+                <a href="#servicios">Limpieza de Almacenes</a>
+                <a href="#servicios">Desinfección</a>
+            </div>
+            <div>
+                <h4>Empresa</h4>
+                <a href="#por-que">Sobre Nosotros</a>
+                <a href="#testimonios">Testimonios</a>
+                <a href="#galeria">Galería</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+            <div>
+                <h4>Legal</h4>
+                <a href="#">Términos de Servicio</a>
+                <a href="#">Política de Privacidad</a>
+                <a href="#">Política de Cookies</a>
+                <a href="#">Aviso Legal</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2024 LimpiaPro. Todos los derechos reservados. Servicios de limpieza corporativa de calidad garantizada.</p>
+    </div>
+</footer>
+
+<!-- WHATSAPP -->
+<a href="https://wa.me/51999999999" class="whatsapp" target="_blank" aria-label="WhatsApp">
+    💬
+</a>
+
+<script src="script.js"></script>
+
+</body>
+</html>
